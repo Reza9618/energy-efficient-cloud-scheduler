@@ -36,3 +36,6 @@ The goal is to improve:
 ## 📁 Output
 
 The program generates:
+Algorithm,TotalEnergy,TotalLoad,Makespan
+RoundRobin,868575.0,3750,1500
+EnergyAware,871533.3333333333,3750,1550
