@@ -69,6 +69,11 @@ src/
 ├── Metrics.java
 └── CSVExporter.java
 
+graphs/
+├── energy_comparison.png
+├── makespan_comparison.png
+└── load_comparison.png
+
 results.csv
 README.md
 ```
@@ -78,7 +83,7 @@ README.md
 ## ▶️ Running the Simulation
 
 1. Open the project in IntelliJ IDEA.
-2. Ensure Java JDK 21 (or later) is configured.
+2. Ensure Java JDK 21 or later is configured.
 3. Run `Main.java`.
 4. The simulation will:
 
@@ -101,6 +106,18 @@ The simulation was executed using three virtual machines and ten independent tas
 | Round Robin  | 868,575.00   | 3,750      | 1,500    |
 | Energy Aware | 871,533.33   | 3,750      | 1,550    |
 
+### Energy Consumption Comparison
+
+![Energy Comparison](graphs/energy_comparison.png)
+
+### Makespan Comparison
+
+![Makespan Comparison](graphs/makespan_comparison.png)
+
+### Total Load Comparison
+
+![Load Comparison](graphs/load_comparison.png)
+
 ### Analysis
 
 The experiment compares the performance of a traditional Round Robin scheduler against a custom Energy-Aware scheduler.
@@ -113,7 +130,7 @@ Observations:
 * Energy consumption was similar for both approaches.
 * The results demonstrate that scheduling performance depends heavily on workload characteristics and system configuration.
 
-These findings provide a foundation for further optimization and experimentation with more advanced scheduling strategies.
+Although the Energy-Aware scheduler did not outperform Round Robin in this specific configuration, the project demonstrates how energy-related metrics can be integrated into scheduling decisions. These findings provide a foundation for further optimization and experimentation with more advanced scheduling strategies.
 
 ---
 
@@ -150,7 +167,7 @@ Potential improvements include:
 * Java
 * IntelliJ IDEA
 * CSV Export
-* Python (for graph generation and visualization)
+* Python for graph generation and visualization
 
 ---
 
