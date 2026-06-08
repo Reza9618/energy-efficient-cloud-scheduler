@@ -10,6 +10,14 @@ This project was developed as a simulation study in the field of cloud computing
 
 ---
 
+## Research Paper
+
+The full IEEE-style research paper for this project is available in the `paper` folder.
+
+[Download the Research Paper](paper/Energy_Aware_and_Round_Robin_Task_Scheduling_in_Cloud_Computing.pdf)
+
+---
+
 ## 🎯 Objectives
 
 The main objectives of this project are:
